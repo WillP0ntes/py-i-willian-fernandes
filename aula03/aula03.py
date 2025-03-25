@@ -1,0 +1,5 @@
+valor = float(input("informe valor da prestção: "))
+taxa = float(input("informe a taxa mensal: "))
+tempo = float(input("Informe quantidade de mes atrasado: "))
+prest = valor + (valor*(taxa/100)*tempo)
+print("O valor calculado é: ", prest)
